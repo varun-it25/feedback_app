@@ -110,6 +110,27 @@
   --sidebar-ring: oklch(0.552 0.016 285.938);
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
