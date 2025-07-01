@@ -123,12 +123,7 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(231, 231, 231);
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  border-radius: 4px;
 }
 
 @layer base {
